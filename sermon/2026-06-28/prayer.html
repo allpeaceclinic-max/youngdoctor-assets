@@ -1,12 +1,38 @@
 <!DOCTYPE html><html lang='ko'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>함께 기도하기 — 하나님을향한반응으로서의예배</title><style>
-:root{--ink:#1f2a30;--muted:#5b727c;--bg:#f4f7f8;--card:#fff;--accent:#2c5364;--gold:#b8893a}
+:root{--ink:#1f2a30;--muted:#5b727c;--bg:#f4f7f8;--card:#fff;--accent:#2c5364;--gold:#b8893a;--nav-h:52px}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);
   font-family:-apple-system,'Apple SD Gothic Neo','Helvetica Neue',sans-serif;line-height:1.75}
+/* 상단 탭 (데스크톱) */
+.topnav{position:sticky;top:0;z-index:100;background:#fff;border-bottom:1px solid #dce6ea;
+  display:flex;justify-content:center;height:var(--nav-h)}
+.topnav a{display:flex;align-items:center;padding:0 18px;font-size:14px;font-weight:600;
+  color:var(--muted);text-decoration:none;border-bottom:3px solid transparent;white-space:nowrap;
+  transition:color .15s,border-color .15s}
+.topnav a:hover{color:var(--ink)}
+.topnav a.active{color:var(--accent);border-bottom-color:var(--accent)}
+.topnav a[target="_blank"]::after{content:'↗';font-size:11px;margin-left:3px;opacity:.5}
+/* 하단 독 (모바일) */
+.bottomnav{display:none;position:fixed;bottom:0;left:0;right:0;z-index:100;
+  background:#fff;border-top:1px solid #dce6ea;
+  padding-bottom:env(safe-area-inset-bottom)}
+.bottomnav a{display:flex;flex-direction:column;align-items:center;justify-content:center;
+  flex:1;padding:8px 4px;font-size:11px;font-weight:600;color:var(--muted);
+  text-decoration:none;gap:3px;min-width:0}
+.bottomnav a span.icon{font-size:18px;line-height:1}
+.bottomnav a.active{color:var(--accent)}
+.bottomnav a[target="_blank"]::after{content:'↗';font-size:9px;opacity:.5}
+@media(max-width:640px){
+  .topnav{display:none}
+  .bottomnav{display:flex}
+  .bottomnav-inner{display:flex;width:100%}
+  .wrap{padding-bottom:calc(70px + env(safe-area-inset-bottom))}
+}
+/* 본문 */
 .wrap{max-width:720px;margin:0 auto;padding:28px 20px 80px}
 .kicker{font-size:14px;letter-spacing:4px;color:var(--gold);font-weight:700;text-transform:uppercase}
 h1{font-family:'AppleMyungjo',serif;font-size:30px;line-height:1.3;margin:.3em 0 .1em}
-.meta{color:var(--muted);font-size:15px;margin-bottom:24px}
+.meta{color:var(--muted);font-size:15px;margin-bottom:8px}
 h2{font-family:'AppleMyungjo',serif;font-size:22px;margin:1.6em 0 .4em;color:var(--accent)}
 blockquote{margin:1.2em 0 1.2em 1.2em;padding:0;background:transparent;border:none;
   color:#33454d;font-size:16px;font-style:italic;opacity:.85}
@@ -19,7 +45,7 @@ ol,ul{padding-left:1.3em}li{margin:.3em 0}
 .btn span{color:var(--muted);font-size:14px}
 .foot{margin-top:40px;color:var(--muted);font-size:13px;text-align:center}
 a{color:var(--accent)}
-</style><script async src='https://www.googletagmanager.com/gtag/js?id=G-STSY51L7HS'></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-STSY51L7HS');</script></head><body><div class='wrap'><h1>함께 기도하기 — 하나님을 향한 반응으로서의 예배</h1>
+</style><script async src='https://www.googletagmanager.com/gtag/js?id=G-STSY51L7HS'></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-STSY51L7HS');</script></head><body><nav class='topnav'><a href='index.html'>목차</a><a href='cardnews.html'>카드뉴스</a><a href='qt.html'>큐티</a><a href='https://youtu.be/cDQfox9GuS4' target="_blank">팟캐스트</a><a href='slides.pdf' target="_blank">슬라이드</a><a href='prayer.html' class="active">기도</a></nav><nav class='bottomnav'><div class='bottomnav-inner'><a href='index.html'><span class='icon'>≡</span>목차</a><a href='cardnews.html'><span class='icon'>▦</span>카드</a><a href='qt.html'><span class='icon'>✦</span>큐티</a><a href='https://youtu.be/cDQfox9GuS4' target="_blank"><span class='icon'>▶</span>팟캐</a><a href='slides.pdf' target="_blank"><span class='icon'>▤</span>슬라이드</a><a href='prayer.html' class="active"><span class='icon'>✿</span>기도</a></div></nav><div class='wrap'><h1>함께 기도하기 — 하나님을 향한 반응으로서의 예배</h1>
 <blockquote>주종훈 목사 · 총신대 신학대학원 · 이사야 6:1-13</blockquote>
 <blockquote>영닥터 HQ 성경공부</blockquote>
 <hr>
