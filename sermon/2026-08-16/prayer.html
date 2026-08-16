@@ -1,0 +1,100 @@
+<!DOCTYPE html><html lang='ko'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>함께 기도하기 — 불완전함을인정하는자유</title><style>
+:root{--ink:#1f2a30;--muted:#5b727c;--bg:#f4f7f8;--card:#fff;--accent:#2c5364;--gold:#b8893a;--nav-h:52px}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,'Apple SD Gothic Neo','Helvetica Neue',sans-serif;line-height:1.75}
+/* 상단 탭 (데스크톱) */
+.topnav{position:sticky;top:0;z-index:100;background:#fff;border-bottom:1px solid #dce6ea;
+  display:flex;justify-content:center;height:var(--nav-h)}
+.topnav a{display:flex;align-items:center;padding:0 18px;font-size:14px;font-weight:600;
+  color:var(--muted);text-decoration:none;border-bottom:3px solid transparent;white-space:nowrap;
+  transition:color .15s,border-color .15s}
+.topnav a:hover{color:var(--ink)}
+.topnav a.active{color:var(--accent);border-bottom-color:var(--accent)}
+.topnav a[target="_blank"]::after{content:'↗';font-size:11px;margin-left:3px;opacity:.5}
+/* 하단 독 (모바일) */
+.bottomnav{display:none;position:fixed;bottom:0;left:0;right:0;z-index:100;
+  background:#fff;border-top:1px solid #dce6ea;
+  padding-bottom:env(safe-area-inset-bottom)}
+.bottomnav a{display:flex;flex-direction:column;align-items:center;justify-content:center;
+  flex:1;padding:8px 4px;font-size:11px;font-weight:600;color:var(--muted);
+  text-decoration:none;gap:3px;min-width:0}
+.bottomnav a span.icon{font-size:18px;line-height:1}
+.bottomnav a.active{color:var(--accent)}
+.bottomnav a[target="_blank"]::after{content:'↗';font-size:9px;opacity:.5}
+@media(max-width:640px){
+  .topnav{display:none}
+  .bottomnav{display:flex}
+  .bottomnav-inner{display:flex;width:100%}
+  .wrap{padding-bottom:calc(70px + env(safe-area-inset-bottom))}
+}
+/* 본문 */
+.wrap{max-width:720px;margin:0 auto;padding:28px 20px 80px}
+.kicker{font-size:14px;letter-spacing:4px;color:var(--gold);font-weight:700;text-transform:uppercase}
+h1{font-family:'AppleMyungjo',serif;font-size:30px;line-height:1.3;margin:.3em 0 .1em}
+.meta{color:var(--muted);font-size:15px;margin-bottom:8px}
+h2{font-family:'AppleMyungjo',serif;font-size:22px;margin:1.6em 0 .4em;color:var(--accent)}
+blockquote{margin:1.2em 0 1.2em 1.2em;padding:0;background:transparent;border:none;
+  color:#33454d;font-size:16px;font-style:italic;opacity:.85}
+ol,ul{padding-left:1.3em}li{margin:.3em 0}
+.card{display:block;width:100%;border-radius:14px;margin:16px 0;box-shadow:0 4px 18px rgba(20,50,60,.12)}
+.btns{display:flex;flex-direction:column;gap:12px;margin-top:8px}
+.btn{display:block;background:var(--card);border:1px solid #dce6ea;border-radius:14px;
+  padding:18px 20px;text-decoration:none;color:var(--ink);box-shadow:0 2px 10px rgba(20,50,60,.06)}
+.btn b{display:block;font-size:18px;margin-bottom:2px}
+.btn span{color:var(--muted);font-size:14px}
+.foot{margin-top:40px;color:var(--muted);font-size:13px;text-align:center}
+a{color:var(--accent)}
+/* 지난 설교 리뷰 — 한 줄 컴팩트 목록 */
+.past-list{display:flex;flex-direction:column;margin-top:2px;
+  background:var(--card);border:1px solid #dce6ea;border-radius:14px;overflow:hidden}
+.past{display:flex;align-items:baseline;gap:10px;padding:11px 16px;
+  text-decoration:none;color:var(--ink);border-top:1px solid #eef3f5;transition:background .15s}
+.past:first-child{border-top:none}
+.past:hover{background:#eef4f6}
+.past-date{flex:none;font-size:12px;color:var(--gold);font-weight:700;
+  font-variant-numeric:tabular-nums;letter-spacing:.5px}
+.past-title{flex:1;min-width:0;font-size:15px;font-weight:600;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.past-meta{flex:none;font-size:12px;color:var(--muted)}
+@media(max-width:400px){.past-meta{display:none}}
+</style><script async src='https://www.googletagmanager.com/gtag/js?id=G-STSY51L7HS'></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-STSY51L7HS');</script></head><body><nav class='topnav'><a href='index.html'>목차</a><a href='cardnews.html'>카드뉴스</a><a href='qt.html'>큐티</a><a href='#' target="_blank">팟캐스트</a><a href='slides.pdf' target="_blank">슬라이드</a><a href='prayer.html' class="active">기도</a></nav><nav class='bottomnav'><div class='bottomnav-inner'><a href='index.html'><span class='icon'>≡</span>목차</a><a href='cardnews.html'><span class='icon'>▦</span>카드</a><a href='qt.html'><span class='icon'>✦</span>큐티</a><a href='#' target="_blank"><span class='icon'>▶</span>팟캐</a><a href='slides.pdf' target="_blank"><span class='icon'>▤</span>슬라이드</a><a href='prayer.html' class="active"><span class='icon'>✿</span>기도</a></div></nav><div class='wrap'><h1>[기도문] 불완전함을 인정하는 자유</h1>
+<blockquote>본문: 고린도전서 1:26-31 | 문대원 목사 | 2026-08-16 | 대구동신교회</blockquote>
+<hr>
+<h2>부르심을 기억하며</h2>
+<p>거룩하시고 자비로우신 하나님 아버지,</p>
+<p>주님 앞에 나아옵니다. 오늘 주님께서는 저희에게 "너희를 부르심을 보라" 하셨습니다. 저희가 무엇을 가지고 주님께 나아왔는지 돌아보게 하시니 감사합니다.</p>
+<p>지혜로운 자가 많지 않았고, 능한 자가 많지 않았으며, 문벌 좋은 자가 많지 않았습니다. 저희를 부르신 것은 저희 안에 있는 무엇 때문이 아니라, 오직 주님의 값없는 은혜 때문이었음을 이제 고백합니다.</p>
+<p>그런데 저희는 그 은혜로 부르심을 받고도, 어느새 다시 저희 손에 무언가를 쥐고 그것으로 서려 하였습니다. 부르심을 잊어버린 저희를 용서하여 주옵소서.</p>
+<hr>
+<h2>완벽하려던 마음을 내려놓으며</h2>
+<p>주님, 저희는 완벽을 좇으며 살았습니다.</p>
+<p>흠 없는 가정을 계획하였고, 어긋남 없는 앞날을 설계하였으며, 무너지지 않는 일들을 쌓으려 하였습니다. 계획한 대로 되는 날에는 기뻐하였으나, 계획이 어긋나는 날에는 마치 인생이 실패한 것처럼 낙심하였습니다.</p>
+<p>그러나 인생은 저희가 그린 대로 흘러가지 않았습니다. 예기치 못한 어려움이 찾아왔고, 몸이 아팠으며, 관계가 상하였고, 준비한 것들이 무너졌습니다.</p>
+<p>주님, 그때마다 저희가 물어야 할 것은 "왜 계획대로 되지 않았는가"가 아니라 "이 삶의 목적이 무엇이었는가"였음을 이제 깨닫습니다. 저희 인생의 목적은 계획을 완수하는 것이 아니라, 모든 순간에 감사와 기쁨을 누리는 것임을 알게 하여 주옵소서.</p>
+<p>완벽한 부모도, 완벽한 배우자도, 완벽한 자녀도 이 땅에는 없습니다. 저희 자신도 결점을 지닌 불완전한 존재입니다. 그 사실 앞에서 절망하지 않게 하시고, 오히려 그 자리에서 주님을 찾게 하여 주옵소서.</p>
+<hr>
+<h2>자랑하던 것들을 내려놓으며</h2>
+<p>공의로우신 하나님,</p>
+<p>주님께서는 세상의 미련한 것들을 택하사 지혜 있는 자들을 부끄럽게 하시고, 세상의 약한 것들을 택하사 강한 것들을 부끄럽게 하신다 하셨습니다. 그것은 주님께서 약한 자를 편애하시기 때문이 아니라, 아무 육체도 주님 앞에서 자랑하지 못하게 하시려는 뜻인 줄 믿습니다.</p>
+<p>저희 마음을 살펴 주옵소서. 저희는 지위를 자랑하였고, 배움을 자랑하였고, 가진 것을 자랑하였습니다. 겉으로 드러내지 않았을 뿐, 마음 깊은 곳에서는 그것들에 기대어 서 있었습니다.</p>
+<p>그러나 열흘 붉은 꽃이 없고 십 년 가는 권력이 없는 줄을 저희가 압니다. 저희가 붙들고 있는 그 모든 것이 결국 저희 손에서 빠져나갈 것을 압니다. 그것을 붙들고 있는 한 주님의 은혜가 들어올 자리가 없음을 이제 깨닫습니다.</p>
+<p>주님, 저희 마음의 방향을 돌이켜 주옵소서. 내 힘으로 이루려는 마음, 그로 인해 교만해지는 마음, 교만하여 주님과 사람에게서 멀어지는 마음을 끊어 주옵소서.</p>
+<p>주님은 성공한 자를 미워하지 아니하시고 교만한 자를 미워하십니다. 저희로 하여금 무엇을 이루었든 그것으로 서지 않고, 오직 주님을 의지하는 자로 서게 하여 주옵소서.</p>
+<hr>
+<h2>복된 패배를 감사하며</h2>
+<p>은혜로우신 아버지,</p>
+<p>주님께서 이스라엘을 택하신 것은 그들이 모든 민족 중에 가장 적었기 때문이라 하셨습니다. 저희가 불완전하기 때문에, 바로 그 불완전함을 통하여 주님의 온전하심이 드러나는 줄 믿습니다.</p>
+<p>지금 실패의 시간을 지나는 이들이 있습니다. 진학의 문이 닫힌 이들이 있고, 관계가 깨어진 이들이 있으며, 사랑하는 이를 떠나보낸 이들이 있습니다.</p>
+<p>주님, 그 실패가 헛되지 않게 하여 주옵소서. 광야로 쫓겨났던 종을 다시 부르시어 개혁의 구심점으로 세우셨던 것처럼, 저희의 무너진 시간도 주님을 더 깊이 의지하는 훈련의 자리가 되게 하여 주옵소서.</p>
+<p>모든 회심의 이야기가 복된 패배의 이야기라 하였습니다. 내 힘으로 되지 않음을 인정한 자리에서 주님을 만나게 하시니 감사합니다. 그 패배가 저희를 주님께로 데려가는 길이었음을 훗날 고백하게 하여 주옵소서.</p>
+<hr>
+<h2>오직 주님만 자랑하며</h2>
+<p>주님,</p>
+<p>지혜로운 자는 그 지혜를 자랑하지 말고, 용사는 그 용맹을 자랑하지 말며, 부자는 그 부함을 자랑하지 말라 하셨습니다. 자랑하는 자는 명철하여 주님을 아는 것으로 자랑하라 하셨습니다.</p>
+<p>이제 저희 자랑의 대상을 옮겨 주옵소서. 저희가 무엇을 가졌는지가 아니라 저희가 누구를 알고 있는지를 자랑하게 하여 주옵소서.</p>
+<p>그리스도 예수께서 저희에게 지혜가 되셨고, 그로 말미암아 의로움과 거룩함과 구원함이 저희에게 임하였음을 믿습니다. 주님을 아는 것 외에 자랑할 것이 없음을 고백합니다.</p>
+<p>주님의 완전하신 사랑이 저희를 온전하게 합니다. 저희가 완전해져서 사랑받는 것이 아니라, 사랑받았기에 온전해져 가는 줄 믿습니다.</p>
+<p>한 주간의 삶 가운데 이 자유를 누리게 하여 주옵소서. 완전한 척하지 않아도 되는 자유, 부족함을 정직하게 내어놓아도 되는 자유, 그리고 끝까지 사랑하시는 주님만을 자랑하는 자유를 주옵소서.</p>
+<p>저희를 끝까지 사랑하시는 주 예수 그리스도의 이름으로 기도하옵나이다.</p>
+<p><b>아멘.</b></p><div class='foot'>영닥터 HQ · 설교 리뷰 가이드</div></div></body></html>
