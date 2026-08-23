@@ -1,0 +1,100 @@
+<!DOCTYPE html><html lang='ko'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>큐티 가이드 — 비공식적선교사</title><style>
+:root{--ink:#1f2a30;--muted:#5b727c;--bg:#f4f7f8;--card:#fff;--accent:#2c5364;--gold:#b8893a;--nav-h:52px}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,'Apple SD Gothic Neo','Helvetica Neue',sans-serif;line-height:1.75}
+/* 상단 탭 (데스크톱) */
+.topnav{position:sticky;top:0;z-index:100;background:#fff;border-bottom:1px solid #dce6ea;
+  display:flex;justify-content:center;height:var(--nav-h)}
+.topnav a{display:flex;align-items:center;padding:0 18px;font-size:14px;font-weight:600;
+  color:var(--muted);text-decoration:none;border-bottom:3px solid transparent;white-space:nowrap;
+  transition:color .15s,border-color .15s}
+.topnav a:hover{color:var(--ink)}
+.topnav a.active{color:var(--accent);border-bottom-color:var(--accent)}
+.topnav a[target="_blank"]::after{content:'↗';font-size:11px;margin-left:3px;opacity:.5}
+/* 하단 독 (모바일) */
+.bottomnav{display:none;position:fixed;bottom:0;left:0;right:0;z-index:100;
+  background:#fff;border-top:1px solid #dce6ea;
+  padding-bottom:env(safe-area-inset-bottom)}
+.bottomnav a{display:flex;flex-direction:column;align-items:center;justify-content:center;
+  flex:1;padding:8px 4px;font-size:11px;font-weight:600;color:var(--muted);
+  text-decoration:none;gap:3px;min-width:0}
+.bottomnav a span.icon{font-size:18px;line-height:1}
+.bottomnav a.active{color:var(--accent)}
+.bottomnav a[target="_blank"]::after{content:'↗';font-size:9px;opacity:.5}
+@media(max-width:640px){
+  .topnav{display:none}
+  .bottomnav{display:flex}
+  .bottomnav-inner{display:flex;width:100%}
+  .wrap{padding-bottom:calc(70px + env(safe-area-inset-bottom))}
+}
+/* 본문 */
+.wrap{max-width:720px;margin:0 auto;padding:28px 20px 80px}
+.kicker{font-size:14px;letter-spacing:4px;color:var(--gold);font-weight:700;text-transform:uppercase}
+h1{font-family:'AppleMyungjo',serif;font-size:30px;line-height:1.3;margin:.3em 0 .1em}
+.meta{color:var(--muted);font-size:15px;margin-bottom:8px}
+h2{font-family:'AppleMyungjo',serif;font-size:22px;margin:1.6em 0 .4em;color:var(--accent)}
+blockquote{margin:1.2em 0 1.2em 1.2em;padding:0;background:transparent;border:none;
+  color:#33454d;font-size:16px;font-style:italic;opacity:.85}
+ol,ul{padding-left:1.3em}li{margin:.3em 0}
+.card{display:block;width:100%;border-radius:14px;margin:16px 0;box-shadow:0 4px 18px rgba(20,50,60,.12)}
+.btns{display:flex;flex-direction:column;gap:12px;margin-top:8px}
+.btn{display:block;background:var(--card);border:1px solid #dce6ea;border-radius:14px;
+  padding:18px 20px;text-decoration:none;color:var(--ink);box-shadow:0 2px 10px rgba(20,50,60,.06)}
+.btn b{display:block;font-size:18px;margin-bottom:2px}
+.btn span{color:var(--muted);font-size:14px}
+.foot{margin-top:40px;color:var(--muted);font-size:13px;text-align:center}
+.foot a{color:var(--accent);text-decoration:none;border-bottom:1px solid transparent}
+.foot a:hover{border-bottom-color:var(--accent)}
+a{color:var(--accent)}
+/* 지난 설교 리뷰 — 한 줄 컴팩트 목록 */
+.past-list{display:flex;flex-direction:column;margin-top:2px;
+  background:var(--card);border:1px solid #dce6ea;border-radius:14px;overflow:hidden}
+.past{display:flex;align-items:baseline;gap:10px;padding:11px 16px;
+  text-decoration:none;color:var(--ink);border-top:1px solid #eef3f5;transition:background .15s}
+.past:first-child{border-top:none}
+.past:hover{background:#eef4f6}
+.past-date{flex:none;font-size:12px;color:var(--gold);font-weight:700;
+  font-variant-numeric:tabular-nums;letter-spacing:.5px}
+.past-title{flex:1;min-width:0;font-size:15px;font-weight:600;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.past-meta{flex:none;font-size:12px;color:var(--muted)}
+@media(max-width:400px){.past-meta{display:none}}
+</style><script async src='https://www.googletagmanager.com/gtag/js?id=G-STSY51L7HS'></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-STSY51L7HS');</script></head><body><nav class='topnav'><a href='index.html'>목차</a><a href='cardnews.html'>카드뉴스</a><a href='qt.html' class="active">큐티</a><a href='https://youtu.be/u3p49Hk2kYc' target="_blank">팟캐스트</a><a href='slides.pdf' target="_blank">슬라이드</a><a href='https://youtu.be/66OVUh2l3hg' target="_blank">쇼츠</a><a href='prayer.html'>기도</a></nav><nav class='bottomnav'><div class='bottomnav-inner'><a href='index.html'><span class='icon'>≡</span>목차</a><a href='cardnews.html'><span class='icon'>▦</span>카드</a><a href='qt.html' class="active"><span class='icon'>✦</span>큐티</a><a href='https://youtu.be/u3p49Hk2kYc' target="_blank"><span class='icon'>▶</span>팟캐</a><a href='slides.pdf' target="_blank"><span class='icon'>▤</span>슬라이드</a><a href='https://youtu.be/66OVUh2l3hg' target="_blank"><span class='icon'>▷</span>쇼츠</a><a href='prayer.html'><span class='icon'>✿</span>기도</a></div></nav><div class='wrap'><h1>[큐티 가이드] 비공식적 선교사</h1>
+<blockquote>본문: 사도행전 16:11-15 | 2026-08-23 | 대구동신교회</blockquote>
+<hr>
+<h2>오늘의 본문</h2>
+<p><b>사도행전 16:11-15</b></p>
+<blockquote>13 안식일에 우리가 기도할 곳이 있을까 하여 문 밖 강가에 나가 거기 앉아서 모인 여자들에게 말하는데</blockquote>
+<p>></p>
+<blockquote>14 두아디라 시에 있는 자색 옷감 장사로서 하나님을 섬기는 루디아라 하는 한 여자가 말을 듣고 있을 때 주께서 그 마음을 열어 바울의 말을 따르게 하신지라</blockquote>
+<hr>
+<h2>본문 관찰</h2>
+<ol>
+<li>11-12절에서 바울 일행의 이동 경로를 순서대로 적어 보십시오. 누가는 빌립보를 어떤 도시라고 소개합니까? "마게도냐 지방의 첫 성"과 "로마의 식민지"라는 두 표현이 각각 무엇을 알려 줍니까?</li>
+
+<li>13절에서 바울 일행은 어디로, 무엇을 기대하며 나갔습니까? 그들이 회당이 아니라 "문 밖 강가"로 간 정황에서, 이 도시의 신앙 환경에 대해 무엇을 추론할 수 있습니까?</li>
+
+<li>14절이 루디아를 소개하는 표현을 하나씩 나누어 적어 보십시오(출신 도시, 직업, 신앙 상태, 이름). 그리고 그가 그 자리에서 하고 있던 일은 무엇이었습니까?</li>
+
+<li>14절 후반부에서 루디아가 바울의 말을 따르게 된 원인은 누구의 행동으로 서술됩니까? 문장의 주어를 그대로 찾아 적어 보십시오.</li>
+
+<li>15절에서 세례를 받은 사람은 누구누구이며, 루디아가 바울 일행에게 한 요청은 무엇이었습니까? "강권하여"라는 표현이 그의 태도에 대해 무엇을 말해 줍니까?</li>
+</ol>
+<hr>
+<h2>묵상</h2>
+<ol>
+<li>바울은 회당이 없는 도시에서도 기도하는 사람이 있을 만한 자리를 <b>찾아 나섰습니다</b>. 내가 있는 자리에서 복음에 마음이 열려 있을 만한 사람은 누구입니까? 나는 그를 찾아 나선 적이 있습니까, 아니면 오기를 기다리기만 했습니까?</li>
+
+<li>루디아는 이방인이고 여성이며 사업가였습니다. 당시 기준으로는 교회의 중심에 설 자격이 하나도 없던 사람이었습니다. 나는 "나 같은 사람은 해당되지 않는다"며 스스로를 제외해 온 부르심이 있습니까? 무엇이 나를 제외시켰습니까 — 직분입니까, 지식입니까, 과거입니까?</li>
+
+<li>"주께서 그 마음을 열어." 바울은 선포할 수 있었으나 마음을 열 수는 없었습니다. 내가 오랫동안 애쓰고도 변화가 없어 지친 관계가 있습니까? 그 사람의 마음을 여는 일이 내 몫이 아니라는 사실은 나에게 어떤 위로가 됩니까, 또 어떤 책임을 새로 지웁니까?</li>
+
+<li>유럽 최초의 교회는 예배당이 아니라 루디아의 <b>집</b>에서 시작되었습니다. 내가 가진 것 가운데 다른 사람에게 열어 줄 수 있는 공간·시간·식탁은 무엇입니까?</li>
+</ol>
+<hr>
+<h2>적용 한 가지</h2>
+<p>오늘 안에, 복음이 필요하다고 여겨지는 한 사람의 이름을 적고 그를 위해 5분간 기도하십시오. 그리고 그 사람에게 안부를 묻는 연락을 한 번 하십시오. 설득하려 하지 말고, 마음을 여시는 분은 하나님이심을 기억하며 그저 다가가십시오.</p>
+<hr>
+<h2>기도</h2>
+<p>주님, 저를 부르실 때 제 자격을 보지 않으셨음을 압니다. 루디아의 마음을 여신 그 손으로 오늘 제가 품은 한 사람의 마음도 열어 주옵소서. 제가 할 수 없는 일을 억지로 하려다 지치지 않게 하시고, 제가 할 수 있는 일 — 찾아가고, 곁에 앉고, 기도하는 일 — 을 오늘 하게 하옵소서. 이름 없이 섬긴 초대교회의 성도들처럼, 저도 제 자리에서 비공식 선교사로 살아가게 하옵소서. 예수님의 이름으로 기도합니다. 아멘.</p><div class='foot'><a href='https://wiki.youngdoctor.kr/marktl/' target='_blank' rel='noopener'>영닥터 HQ</a> · 설교 리뷰 가이드</div></div></body></html>
