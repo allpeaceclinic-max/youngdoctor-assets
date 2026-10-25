@@ -1,0 +1,76 @@
+<!DOCTYPE html><html lang='ko'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>함께 기도하기 — 계산하지않는사랑</title><style>
+:root{--ink:#1f2a30;--muted:#5b727c;--bg:#f4f7f8;--card:#fff;--accent:#2c5364;--gold:#b8893a;--nav-h:52px}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,'Apple SD Gothic Neo','Helvetica Neue',sans-serif;line-height:1.75}
+/* 상단 탭 (데스크톱) */
+.topnav{position:sticky;top:0;z-index:100;background:#fff;border-bottom:1px solid #dce6ea;
+  display:flex;justify-content:center;height:var(--nav-h)}
+.topnav a{display:flex;align-items:center;padding:0 18px;font-size:14px;font-weight:600;
+  color:var(--muted);text-decoration:none;border-bottom:3px solid transparent;white-space:nowrap;
+  transition:color .15s,border-color .15s}
+.topnav a:hover{color:var(--ink)}
+.topnav a.active{color:var(--accent);border-bottom-color:var(--accent)}
+.topnav a[target="_blank"]::after{content:'↗';font-size:11px;margin-left:3px;opacity:.5}
+/* 하단 독 (모바일) */
+.bottomnav{display:none;position:fixed;bottom:0;left:0;right:0;z-index:100;
+  background:#fff;border-top:1px solid #dce6ea;
+  padding-bottom:env(safe-area-inset-bottom)}
+.bottomnav a{display:flex;flex-direction:column;align-items:center;justify-content:center;
+  flex:1;padding:8px 4px;font-size:11px;font-weight:600;color:var(--muted);
+  text-decoration:none;gap:3px;min-width:0}
+.bottomnav a span.icon{font-size:18px;line-height:1}
+.bottomnav a.active{color:var(--accent)}
+.bottomnav a[target="_blank"]::after{content:'↗';font-size:9px;opacity:.5}
+@media(max-width:640px){
+  .topnav{display:none}
+  .bottomnav{display:flex}
+  .bottomnav-inner{display:flex;width:100%}
+  .wrap{padding-bottom:calc(70px + env(safe-area-inset-bottom))}
+}
+/* 본문 */
+.wrap{max-width:720px;margin:0 auto;padding:28px 20px 80px}
+.kicker{font-size:14px;letter-spacing:4px;color:var(--gold);font-weight:700;text-transform:uppercase}
+h1{font-family:'AppleMyungjo',serif;font-size:30px;line-height:1.3;margin:.3em 0 .1em}
+.meta{color:var(--muted);font-size:15px;margin-bottom:8px}
+h2{font-family:'AppleMyungjo',serif;font-size:22px;margin:1.6em 0 .4em;color:var(--accent)}
+blockquote{margin:1.2em 0 1.2em 1.2em;padding:0;background:transparent;border:none;
+  color:#33454d;font-size:16px;font-style:italic;opacity:.85}
+ol,ul{padding-left:1.3em}li{margin:.3em 0}
+.card{display:block;width:100%;border-radius:14px;margin:16px 0;box-shadow:0 4px 18px rgba(20,50,60,.12)}
+.btns{display:flex;flex-direction:column;gap:12px;margin-top:8px}
+.btn{display:block;background:var(--card);border:1px solid #dce6ea;border-radius:14px;
+  padding:18px 20px;text-decoration:none;color:var(--ink);box-shadow:0 2px 10px rgba(20,50,60,.06)}
+.btn b{display:block;font-size:18px;margin-bottom:2px}
+.btn span{color:var(--muted);font-size:14px}
+.foot{margin-top:40px;color:var(--muted);font-size:13px;text-align:center}
+.foot a{color:var(--accent);text-decoration:none;border-bottom:1px solid transparent}
+.foot a:hover{border-bottom-color:var(--accent)}
+a{color:var(--accent)}
+/* 지난 설교 리뷰 — 한 줄 컴팩트 목록 */
+.past-list{display:flex;flex-direction:column;margin-top:2px;
+  background:var(--card);border:1px solid #dce6ea;border-radius:14px;overflow:hidden}
+.past{display:flex;align-items:baseline;gap:10px;padding:11px 16px;
+  text-decoration:none;color:var(--ink);border-top:1px solid #eef3f5;transition:background .15s}
+.past:first-child{border-top:none}
+.past:hover{background:#eef4f6}
+.past-date{flex:none;font-size:12px;color:var(--gold);font-weight:700;
+  font-variant-numeric:tabular-nums;letter-spacing:.5px}
+.past-title{flex:1;min-width:0;font-size:15px;font-weight:600;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.past-meta{flex:none;font-size:12px;color:var(--muted)}
+@media(max-width:400px){.past-meta{display:none}}
+</style><script async src='https://www.googletagmanager.com/gtag/js?id=G-STSY51L7HS'></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-STSY51L7HS');</script></head><body><nav class='topnav'><a href='index.html'>목차</a><a href='cardnews.html'>카드뉴스</a><a href='qt.html'>큐티</a><a href='https://youtu.be/WPNy_LiqosQ' target="_blank">팟캐스트</a><a href='slides.pdf' target="_blank">슬라이드</a><a href='https://youtu.be/6gXn4BH8ZtU' target="_blank">쇼츠</a><a href='prayer.html' class="active">기도</a></nav><nav class='bottomnav'><div class='bottomnav-inner'><a href='index.html'><span class='icon'>≡</span>목차</a><a href='cardnews.html'><span class='icon'>▦</span>카드</a><a href='qt.html'><span class='icon'>✦</span>큐티</a><a href='https://youtu.be/WPNy_LiqosQ' target="_blank"><span class='icon'>▶</span>팟캐</a><a href='slides.pdf' target="_blank"><span class='icon'>▤</span>슬라이드</a><a href='https://youtu.be/6gXn4BH8ZtU' target="_blank"><span class='icon'>▷</span>쇼츠</a><a href='prayer.html' class="active"><span class='icon'>✿</span>기도</a></div></nav><div class='wrap'><h1>[기도문] 계산하지 않는 사랑</h1>
+<blockquote>요한복음 10:11-15 | 문대원 목사 | 2026-10-25 | 대구동신교회</blockquote>
+<hr>
+<p>양들을 위하여 목숨을 버리신 선한 목자 예수 그리스도의 아버지 하나님,</p>
+<p>오늘 주의 날에 저희를 불러 말씀 앞에 세워 주시니 감사합니다. 저희가 주님을 먼저 사랑한 것이 아니라 주님께서 저희를 먼저 사랑하셨습니다. 저희 죄를 속하기 위하여 화목 제물로 그 아들을 보내신 그 사랑 앞에, 오늘 다시 머리 숙여 감사를 드립니다.</p>
+<p>아버지, 저희는 사랑을 뜨거운 감정으로만 알았습니다. 감정이 식으면 사랑도 끝난 줄 알고 마음을 닫기도 했습니다. 그러나 사랑은 자기의 유익을 구하지 아니하고 상대방의 유익을 구하는 것임을 배웁니다. 내 자녀가 나보다 더 행복하기를 바라는 부모의 마음, 그 마음이 저희를 향한 아버지의 마음임을 알게 하시니 감사합니다. 오랜 세월을 함께한 배우자와 가족을, 감정이 아니라 헌신으로 다시 사랑하게 하옵소서.</p>
+<p>주님, 저희는 계산하며 살아왔습니다. 받은 선물의 값을 따지고, 직업을 버는 것으로만 재고, 손해 보지 않는 것을 지혜라고 여겼습니다. 착하게 살면 손해를 본다는 세상의 말에 저희도 모르게 길들여졌습니다. 그래서 보상이 없는 일에는 마음을 쓰지 않았고, 당장의 이익 때문에 오래 걸리는 귀한 일을 미루었으며, 가까운 이들과도 거래의 관계에 머물렀습니다. 부모와 자식 사이에서도 받을 것을 헤아리던 저희를 용서하여 주옵소서.</p>
+<p>아버지, 저희가 계산하는 까닭은 내일이 두렵기 때문입니다. 무엇을 먹을까, 무엇을 입을까, 노후는 어떻게 될까 염려하며 오늘을 잃어버렸습니다. 공중의 새를 기르시는 하나님, 저희는 참새보다 귀하다고 말씀하셨습니다. 참새의 이름은 부르지 않으시지만 저희의 이름은 아시고 부르시는 주님을 신뢰합니다. 주인을 믿고 맡겨 놓은 것처럼 구하는 어린아이의 마음으로, 저희의 필요를 아시고 공급하시는 아버지께 염려를 내려놓게 하옵소서.</p>
+<p>주님, 누구에게나 인생은 처음입니다. 처음 맞는 학업과 일터, 처음 맺는 가정, 처음 되어 보는 부모의 자리 앞에서 저희는 무엇이 최선인지 알지 못하고, 알아도 실천하지 못합니다. 목자 없는 양과 같이 고생하며 기진한 저희를 불쌍히 여겨 주옵소서. 길을 알지 못하는 저희 앞에서 걸으시며 인도하여 주옵소서.</p>
+<p>참된 목자이신 예수님, 세상에는 목자를 자처하는 이가 많지만 저희를 위하여 목숨을 버리신 분은 주님 한 분뿐이십니다. 삯꾼은 이리가 오면 양을 버리고 달아나지만, 주님은 십자가를 끝까지 지셨습니다. 값을 치러 저희를 주님의 것으로 삼으시고, 주인의 마음으로 저희를 기뻐하시니 감사합니다. 저희에게 그만한 가치가 있어서가 아니라, 저희를 가치 있는 존재로 만드시려고 사랑하신 그 헤아릴 수 없는 사랑을 찬양합니다.</p>
+<p>주님, 이제 저희도 삯꾼이 아니라 주인의 마음으로 섬기게 하옵소서. 가정과 교회와 일터에서 보상만큼만 일하다가 어려움이 오면 물러서는 저희가 되지 않게 하옵소서. 당장은 손해처럼 보여도 다음 세대를 세우고 사람을 키우는 오래 걸리는 일에 기쁨으로 마음을 쏟게 하옵소서. 저희 곁의 한 사람을 깊이 알고 사랑하는 데 시간을 아끼지 않게 하옵소서.</p>
+<p>괴로운 십자가를 지시면서도 사랑할 사람이 있어 행복하셨던 주님, 저희에게도 주면서 기뻐하는 사랑을 가르쳐 주옵소서. 내어주는 것을 손해로 여기지 않고, 사랑할 사람이 있다는 것을 복으로 고백하게 하옵소서. 모든 것을 계산하는 이 시대 속에서, 저희가 계산하지 않는 사랑의 증인으로 살게 하옵소서.</p>
+<p>이번 한 주, 저희 각 사람이 받을 것을 따지지 않고 한 사람의 유익을 구하는 걸음을 내딛게 하옵소서. 저희를 아시고 저희가 주님을 아는 그 사귐 안에서, 선한 목자 되신 예수님과 날마다 동행하게 하옵소서.</p>
+<p>양들을 위하여 목숨을 버리신, 우리의 선한 목자 예수 그리스도의 이름으로 기도합니다. 아멘.</p><div class='foot'><a href='https://wiki.youngdoctor.kr/marktl/' target='_blank' rel='noopener'>영닥터 HQ</a> · 설교 리뷰 가이드</div></div></body></html>
