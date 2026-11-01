@@ -1,0 +1,76 @@
+<!DOCTYPE html><html lang='ko'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>함께 기도하기 — 우리는모두친구가필요합니다</title><style>
+:root{--ink:#1f2a30;--muted:#5b727c;--bg:#f4f7f8;--card:#fff;--accent:#2c5364;--gold:#b8893a;--nav-h:52px}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,'Apple SD Gothic Neo','Helvetica Neue',sans-serif;line-height:1.75}
+/* 상단 탭 (데스크톱) */
+.topnav{position:sticky;top:0;z-index:100;background:#fff;border-bottom:1px solid #dce6ea;
+  display:flex;justify-content:center;height:var(--nav-h)}
+.topnav a{display:flex;align-items:center;padding:0 18px;font-size:14px;font-weight:600;
+  color:var(--muted);text-decoration:none;border-bottom:3px solid transparent;white-space:nowrap;
+  transition:color .15s,border-color .15s}
+.topnav a:hover{color:var(--ink)}
+.topnav a.active{color:var(--accent);border-bottom-color:var(--accent)}
+.topnav a[target="_blank"]::after{content:'↗';font-size:11px;margin-left:3px;opacity:.5}
+/* 하단 독 (모바일) */
+.bottomnav{display:none;position:fixed;bottom:0;left:0;right:0;z-index:100;
+  background:#fff;border-top:1px solid #dce6ea;
+  padding-bottom:env(safe-area-inset-bottom)}
+.bottomnav a{display:flex;flex-direction:column;align-items:center;justify-content:center;
+  flex:1;padding:8px 4px;font-size:11px;font-weight:600;color:var(--muted);
+  text-decoration:none;gap:3px;min-width:0}
+.bottomnav a span.icon{font-size:18px;line-height:1}
+.bottomnav a.active{color:var(--accent)}
+.bottomnav a[target="_blank"]::after{content:'↗';font-size:9px;opacity:.5}
+@media(max-width:640px){
+  .topnav{display:none}
+  .bottomnav{display:flex}
+  .bottomnav-inner{display:flex;width:100%}
+  .wrap{padding-bottom:calc(70px + env(safe-area-inset-bottom))}
+}
+/* 본문 */
+.wrap{max-width:720px;margin:0 auto;padding:28px 20px 80px}
+.kicker{font-size:14px;letter-spacing:4px;color:var(--gold);font-weight:700;text-transform:uppercase}
+h1{font-family:'AppleMyungjo',serif;font-size:30px;line-height:1.3;margin:.3em 0 .1em}
+.meta{color:var(--muted);font-size:15px;margin-bottom:8px}
+h2{font-family:'AppleMyungjo',serif;font-size:22px;margin:1.6em 0 .4em;color:var(--accent)}
+blockquote{margin:1.2em 0 1.2em 1.2em;padding:0;background:transparent;border:none;
+  color:#33454d;font-size:16px;font-style:italic;opacity:.85}
+ol,ul{padding-left:1.3em}li{margin:.3em 0}
+.card{display:block;width:100%;border-radius:14px;margin:16px 0;box-shadow:0 4px 18px rgba(20,50,60,.12)}
+.btns{display:flex;flex-direction:column;gap:12px;margin-top:8px}
+.btn{display:block;background:var(--card);border:1px solid #dce6ea;border-radius:14px;
+  padding:18px 20px;text-decoration:none;color:var(--ink);box-shadow:0 2px 10px rgba(20,50,60,.06)}
+.btn b{display:block;font-size:18px;margin-bottom:2px}
+.btn span{color:var(--muted);font-size:14px}
+.foot{margin-top:40px;color:var(--muted);font-size:13px;text-align:center}
+.foot a{color:var(--accent);text-decoration:none;border-bottom:1px solid transparent}
+.foot a:hover{border-bottom-color:var(--accent)}
+a{color:var(--accent)}
+/* 지난 설교 리뷰 — 한 줄 컴팩트 목록 */
+.past-list{display:flex;flex-direction:column;margin-top:2px;
+  background:var(--card);border:1px solid #dce6ea;border-radius:14px;overflow:hidden}
+.past{display:flex;align-items:baseline;gap:10px;padding:11px 16px;
+  text-decoration:none;color:var(--ink);border-top:1px solid #eef3f5;transition:background .15s}
+.past:first-child{border-top:none}
+.past:hover{background:#eef4f6}
+.past-date{flex:none;font-size:12px;color:var(--gold);font-weight:700;
+  font-variant-numeric:tabular-nums;letter-spacing:.5px}
+.past-title{flex:1;min-width:0;font-size:15px;font-weight:600;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.past-meta{flex:none;font-size:12px;color:var(--muted)}
+@media(max-width:400px){.past-meta{display:none}}
+</style><script async src='https://www.googletagmanager.com/gtag/js?id=G-STSY51L7HS'></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-STSY51L7HS');</script></head><body><nav class='topnav'><a href='index.html'>목차</a><a href='cardnews.html'>카드뉴스</a><a href='qt.html'>큐티</a><a href='https://youtu.be/WsgigpD5JaM' target="_blank">팟캐스트</a><a href='slides.pdf' target="_blank">슬라이드</a><a href='https://youtu.be/7mvENECSINw' target="_blank">쇼츠</a><a href='prayer.html' class="active">기도</a></nav><nav class='bottomnav'><div class='bottomnav-inner'><a href='index.html'><span class='icon'>≡</span>목차</a><a href='cardnews.html'><span class='icon'>▦</span>카드</a><a href='qt.html'><span class='icon'>✦</span>큐티</a><a href='https://youtu.be/WsgigpD5JaM' target="_blank"><span class='icon'>▶</span>팟캐</a><a href='slides.pdf' target="_blank"><span class='icon'>▤</span>슬라이드</a><a href='https://youtu.be/7mvENECSINw' target="_blank"><span class='icon'>▷</span>쇼츠</a><a href='prayer.html' class="active"><span class='icon'>✿</span>기도</a></div></nav><div class='wrap'><h1>[기도문] 우리는 모두 친구가 필요합니다</h1>
+<blockquote>요한복음 15:12-17 | 문대원 목사 | 2026-11-01 | 대구동신교회</blockquote>
+<hr>
+<p>저희를 먼저 택하여 세우시고 친구라 불러 주신 예수 그리스도의 아버지 하나님,</p>
+<p>오늘 주의 날에 저희를 불러 말씀 앞에 세워 주시니 감사합니다. 저희가 주님을 택한 것이 아니라 주님께서 저희를 택하셨습니다. 이 관계의 시작이 저희의 결심이 아니라 주님의 사랑에 있음을 고백하며, 그 은혜 앞에 머리 숙여 감사를 드립니다.</p>
+<p>아버지, 저희는 어느 때보다 많이 연결되어 있지만 어느 때보다 외롭습니다. 지구 반대편의 소식은 실시간으로 알면서도 옆집에 사는 이웃의 이름은 알지 못합니다. 모르는 사람이 내미는 호의조차 경계하며 마음의 문을 닫고 살아갑니다. 외로움 가운데 있는 어르신들과 홀로 지내는 이웃들, 마음을 나눌 친구 하나 없이 하루를 견디는 이들을 긍휼히 여겨 주옵소서.</p>
+<p>주님, 저희는 관계마저 계산하며 살아왔습니다. 적당히 주고 적당히 받는 것을 지혜라 여겼고, 목적 없이는 만나지 않고 이유 없이는 연락하지 않았습니다. 친구가 없어도 사는 데는 지장이 없다고 여기며 바쁨을 핑계로 관계를 미루었습니다. 그러나 우정은 저희의 삶을 가치 있게 만드는 선물임을 배웁니다. 저희를 그런 우정으로 다시 부르시는 주님의 음성에 귀 기울이게 하옵소서.</p>
+<p>아버지, 저희는 하나님과의 관계에서도 거래를 하려 했습니다. 드린 만큼 받기를 바라고, 기도를 투자처럼 여기며 몇 배의 보상을 구하기도 했습니다. 마음을 다하고 뜻을 다하고 힘을 다하여 하나님을 사랑하라 하신 말씀을 잊었습니다. 하나님은 물질이 아니라 인격이시며, 저희와 사랑의 관계를 원하시는 분이심을 고백합니다. 저희의 신앙이 거래에서 사랑으로 바뀌게 하옵소서.</p>
+<p>예수님, 주님은 세상에 있는 자기 사람들을 끝까지 사랑하셨습니다. 마지막 순간까지 신실하게, 할 수 있는 모든 것을 다하여 사랑하셨습니다. 저희는 받아 본 적 없는 사랑을 상상으로 흉내 낼 수 없습니다. 그러니 먼저 주님의 그 사랑을 깊이 맛보게 하옵소서. 그 사랑으로 채워진 저희가 주님께서 저희를 사랑하신 것 같이 서로 사랑하게 하옵소서.</p>
+<p>주님, 종은 주인이 하는 일을 알지 못하지만 주님은 아버지께 들은 것을 다 저희에게 알려 주시고 저희를 친구라 부르셨습니다. 아브라함과 모세에게만 주셨던 그 영광스러운 이름을 저희 같은 이들에게 주시니 감사합니다. 소돔의 일을 아브라함에게 숨기지 않으셨던 하나님, 구원의 비밀을 저희에게 맡기셨으니 그 비밀을 맡은 자로서 충성되게 하옵소서. 아브라함이 롯을 위해 중보했던 것처럼, 아직 이 사랑을 알지 못하는 이웃과 가족을 위해 간구하는 친구가 되게 하옵소서.</p>
+<p>아버지, 잘 보이려 애쓰는 관계가 아니라 그냥 좋아서 만나는 안전한 관계를 저희에게 허락하여 주옵소서. 기쁨과 신뢰와 용납과 안정감이 있는 우정을 교회 안에서 누리게 하옵소서. 나이와 세대와 직분의 차이를 넘어, 부탁할 것이 없어도 서로를 찾는 친구가 되게 하옵소서. 저희 교회를 섬기는 목회자들과 장로님들에게도 마음을 나누고 함께 기도할 벗들을 더하여 주옵소서.</p>
+<p>주님, 세상의 우정은 잠시 문제를 잊게 할 뿐 가치관이 다르면 한계에 닿습니다. 그러나 주님 안에서 만난 친구는 같은 진리를 함께 바라보며 영원을 향해 함께 걸어갑니다. 가정 안에서도 부부와 자녀가 진리를 함께 이야기하게 하시고, 그 대화로 저희의 관계가 더욱 견고해지게 하옵소서. 이 땅에서 함께하는 시간이 길지 않음을 알기에, 오늘 곁에 있는 이들을 더 깊이 사랑하게 하옵소서.</p>
+<p>이번 한 주, 저희 각 사람이 목적 없이 한 사람에게 안부를 묻고, 마음을 나누며, 함께 식탁에 앉는 걸음을 내딛게 하옵소서. 관계 자체가 목적임을 기억하며, 서로 사랑함으로 진정한 사랑을 알지 못하는 이들 가운데 주님의 사랑을 나타내는 저희가 되게 하옵소서.</p>
+<p>친구를 위하여 자기 목숨을 버리신, 우리의 참된 친구 예수 그리스도의 이름으로 기도합니다. 아멘.</p><div class='foot'><a href='https://wiki.youngdoctor.kr/marktl/' target='_blank' rel='noopener'>영닥터 HQ</a> · 설교 리뷰 가이드</div></div></body></html>
