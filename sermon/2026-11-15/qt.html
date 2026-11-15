@@ -1,0 +1,87 @@
+<!DOCTYPE html><html lang='ko'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>큐티 가이드 — 긍정적인관점을잃지않는비결</title><style>
+:root{--ink:#1f2a30;--muted:#5b727c;--bg:#f4f7f8;--card:#fff;--accent:#2c5364;--gold:#b8893a;--nav-h:52px}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,'Apple SD Gothic Neo','Helvetica Neue',sans-serif;line-height:1.75}
+/* 상단 탭 (데스크톱) */
+.topnav{position:sticky;top:0;z-index:100;background:#fff;border-bottom:1px solid #dce6ea;
+  display:flex;justify-content:center;height:var(--nav-h)}
+.topnav a{display:flex;align-items:center;padding:0 18px;font-size:14px;font-weight:600;
+  color:var(--muted);text-decoration:none;border-bottom:3px solid transparent;white-space:nowrap;
+  transition:color .15s,border-color .15s}
+.topnav a:hover{color:var(--ink)}
+.topnav a.active{color:var(--accent);border-bottom-color:var(--accent)}
+.topnav a[target="_blank"]::after{content:'↗';font-size:11px;margin-left:3px;opacity:.5}
+/* 하단 독 (모바일) */
+.bottomnav{display:none;position:fixed;bottom:0;left:0;right:0;z-index:100;
+  background:#fff;border-top:1px solid #dce6ea;
+  padding-bottom:env(safe-area-inset-bottom)}
+.bottomnav a{display:flex;flex-direction:column;align-items:center;justify-content:center;
+  flex:1;padding:8px 4px;font-size:11px;font-weight:600;color:var(--muted);
+  text-decoration:none;gap:3px;min-width:0}
+.bottomnav a span.icon{font-size:18px;line-height:1}
+.bottomnav a.active{color:var(--accent)}
+.bottomnav a[target="_blank"]::after{content:'↗';font-size:9px;opacity:.5}
+@media(max-width:640px){
+  .topnav{display:none}
+  .bottomnav{display:flex}
+  .bottomnav-inner{display:flex;width:100%}
+  .wrap{padding-bottom:calc(70px + env(safe-area-inset-bottom))}
+}
+/* 본문 */
+.wrap{max-width:720px;margin:0 auto;padding:28px 20px 80px}
+.kicker{font-size:14px;letter-spacing:4px;color:var(--gold);font-weight:700;text-transform:uppercase}
+h1{font-family:'AppleMyungjo',serif;font-size:30px;line-height:1.3;margin:.3em 0 .1em}
+.meta{color:var(--muted);font-size:15px;margin-bottom:8px}
+h2{font-family:'AppleMyungjo',serif;font-size:22px;margin:1.6em 0 .4em;color:var(--accent)}
+blockquote{margin:1.2em 0 1.2em 1.2em;padding:0;background:transparent;border:none;
+  color:#33454d;font-size:16px;font-style:italic;opacity:.85}
+ol,ul{padding-left:1.3em}li{margin:.3em 0}
+.card{display:block;width:100%;border-radius:14px;margin:16px 0;box-shadow:0 4px 18px rgba(20,50,60,.12)}
+.btns{display:flex;flex-direction:column;gap:12px;margin-top:8px}
+.btn{display:block;background:var(--card);border:1px solid #dce6ea;border-radius:14px;
+  padding:18px 20px;text-decoration:none;color:var(--ink);box-shadow:0 2px 10px rgba(20,50,60,.06)}
+.btn b{display:block;font-size:18px;margin-bottom:2px}
+.btn span{color:var(--muted);font-size:14px}
+.foot{margin-top:40px;color:var(--muted);font-size:13px;text-align:center}
+.foot a{color:var(--accent);text-decoration:none;border-bottom:1px solid transparent}
+.foot a:hover{border-bottom-color:var(--accent)}
+a{color:var(--accent)}
+/* 지난 설교 리뷰 — 한 줄 컴팩트 목록 */
+.past-list{display:flex;flex-direction:column;margin-top:2px;
+  background:var(--card);border:1px solid #dce6ea;border-radius:14px;overflow:hidden}
+.past{display:flex;align-items:baseline;gap:10px;padding:11px 16px;
+  text-decoration:none;color:var(--ink);border-top:1px solid #eef3f5;transition:background .15s}
+.past:first-child{border-top:none}
+.past:hover{background:#eef4f6}
+.past-date{flex:none;font-size:12px;color:var(--gold);font-weight:700;
+  font-variant-numeric:tabular-nums;letter-spacing:.5px}
+.past-title{flex:1;min-width:0;font-size:15px;font-weight:600;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.past-meta{flex:none;font-size:12px;color:var(--muted)}
+@media(max-width:400px){.past-meta{display:none}}
+</style><script async src='https://www.googletagmanager.com/gtag/js?id=G-STSY51L7HS'></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-STSY51L7HS');</script></head><body><nav class='topnav'><a href='index.html'>목차</a><a href='cardnews.html'>카드뉴스</a><a href='qt.html' class="active">큐티</a><a href='https://youtu.be/q4N6NcHk5S4' target="_blank">팟캐스트</a><a href='slides.pdf' target="_blank">슬라이드</a><a href='https://youtu.be/O2kK-dvMzrQ' target="_blank">쇼츠</a><a href='prayer.html'>기도</a></nav><nav class='bottomnav'><div class='bottomnav-inner'><a href='index.html'><span class='icon'>≡</span>목차</a><a href='cardnews.html'><span class='icon'>▦</span>카드</a><a href='qt.html' class="active"><span class='icon'>✦</span>큐티</a><a href='https://youtu.be/q4N6NcHk5S4' target="_blank"><span class='icon'>▶</span>팟캐</a><a href='slides.pdf' target="_blank"><span class='icon'>▤</span>슬라이드</a><a href='https://youtu.be/O2kK-dvMzrQ' target="_blank"><span class='icon'>▷</span>쇼츠</a><a href='prayer.html'><span class='icon'>✿</span>기도</a></div></nav><div class='wrap'><h1>[큐티 가이드] 긍정적인 관점을 잃지 않는 비결</h1>
+<blockquote>본문: 골로새서 3:15-17 | 2026-11-15 | 대구동신교회</blockquote>
+<h2>오늘의 본문</h2>
+<p>골로새서 3:15-17</p>
+<blockquote>그리스도의 평강이 너희 마음을 주장하게 하라 너희는 평강을 위하여 한 몸으로 부르심을 받았나니 너희는 또한 감사하는 자가 되라 (15절)</blockquote>
+<p>></p>
+<blockquote>또 무엇을 하든지 말에나 일에나 다 주 예수의 이름으로 하고 그를 힘입어 하나님 아버지께 감사하라 (17절)</blockquote>
+<h2>본문 관찰</h2>
+<ol>
+<li>우리 마음을 "주장"해야 하는 것은 무엇입니까? 우리는 무엇을 위하여, 어떤 모습으로 부르심을 받았습니까? (15절)</li>
+<li>우리 속에 "풍성히 거해야" 하는 것은 무엇입니까? 그때 성도들 사이에서, 그리고 하나님을 향해서 어떤 일이 일어납니까? (16절)</li>
+<li>"무엇을 하든지" 어떻게 하라고 말합니까? 누구를 힘입어 누구에게 감사합니까? (17절)</li>
+<li>세 절의 끝에 공통으로 반복되는 말은 무엇입니까? (15절, 16절, 17절)</li>
+</ol>
+<h2>묵상</h2>
+<ol>
+<li>사람의 마음은 좋은 일보다 나쁜 일을 더 오래 기억합니다. 올해를 돌아볼 때 먼저 떠오르는 것은 무엇입니까? 기쁜 일과 힘든 일을 모두 적어 보면 어떤 그림이 보입니까?</li>
+<li>"주장하다"는 경기에서 심판을 본다는 뜻입니다. 요즘 내 마음에서 판정을 내리고 있는 것은 그리스도의 평강입니까, 어제와 오늘이 다른 내 감정입니까? (요 14:27)</li>
+<li>말씀은 내 안에 손님으로 다녀갑니까, 식구로 살고 있습니까? 주일의 나와 평일의 나는 같은 모습입니까? 마음의 소리를 듣는 대신 내 마음에게 들려줄 말씀 한 구절이 있습니까?</li>
+<li>내 감사 제목은 형편과 성취 같은 유한한 감사에 머물러 있습니까, 떠나지 않으시는 하나님의 사랑이라는 영원한 감사에 뿌리를 두고 있습니까? (골 2:7, 빌 4:6-7)</li>
+</ol>
+<h2>적용 한 가지</h2>
+<p>오늘 저녁 15분, 감사한 것 다섯 가지를 적습니다. 이번 주 매일 아침 그 목록을 읽고 하루를 시작합니다.</p>
+<h2>기도</h2>
+<p>십자가로 막힌 담을 허시고 우리의 화평이 되신 주님, 어제와 오늘이 다른 제 감정이 아니라 주님의 평강이 제 마음을 주장하게 하옵소서. 주님의 말씀이 손님이 아니라 식구로 제 안에 풍성히 거하게 하시고, 제 마음의 소리를 따라가지 않고 제 마음에게 주님의 진리를 들려주게 하옵소서. 아픔과 실패에 매몰되지 않고 떠나지 않으시는 주님의 사랑을 기억하며, 무엇을 하든지 감사하는 한 주가 되게 하옵소서. 예수님의 이름으로 기도합니다. 아멘.</p><div class='foot'><a href='https://wiki.youngdoctor.kr/marktl/' target='_blank' rel='noopener'>영닥터 HQ</a> · 설교 리뷰 가이드</div></div></body></html>
